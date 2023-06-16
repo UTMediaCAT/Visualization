@@ -26,6 +26,6 @@ The Jupyter Notebook should open in a web browser and be ready to visualize the 
 If you would like to export Jupyter Notebooks into a different format like *pdf*, *LaTeX*, or *Markdown*, you can use [nbconvert](https://nbconvert.readthedocs.io/en/latest/).  Note that you may need to install pandoc in order to export to a different output format.  To install pandoc, run `pip install pandoc` or download from [here](https://pandoc.org/installing.html).
 
 To export, follow these instructions:
-1. Change into the *notebooks* directory by calling `cd /notebooks/`
+1. Change into the directory with the Jupyter Notebook in the *notebooks* directory
 2. Call `jupyter nbconvert <notebook> --to <format>` where *notebook* is an existing Jupyter Notebook and *format* is the format type you want to export to.  For example, `jupyter nbconvert stack_are_chart.ipynb --to pdf` will convert the stack area chart notebook to a PDF document.
 
