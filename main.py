@@ -3,9 +3,6 @@
 # sets up the jupyter notebook server for visualization.
 
 from __future__ import annotations
-from errno import ENOENT
-from os import strerror
-from os.path import exists
 from signal import SIGINT
 from signal import signal
 from subprocess import CalledProcessError
@@ -15,7 +12,6 @@ from sys import executable
 
 # If requirements.txt is updated, please update this list too
 PACKAGES = ['jupyter', 'pandas', 'matplotlib', 'd3graph']
-INPUT = 'example.csv'
 
 def install(package: str) -> None:
     ''' 
@@ -60,14 +56,6 @@ def check_packages() -> None:
         if not installed(package, environment):
             install(package)
 
-def check_input() -> None:
-    '''
-    Check that the input .csv file is in the scope.
-    Raise an error if the file is not found.
-    '''
-    if not exists(INPUT):
-        raise FileNotFoundError(ENOENT, strerror(ENOENT), INPUT)
-
 def handler(number, frame) -> None:
     '''
     Handle the SIGINT signal when closing the jupyter notebook.
@@ -83,5 +71,4 @@ def start() -> None:
 if __name__ == '__main__':
     signal(SIGINT, handler)
     check_packages()
-    check_input()
     start()
