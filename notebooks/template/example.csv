@@ -1,0 +1,3 @@
+id,title,author,date of publication,plain text,type,citations,citation name,anchor text,referring record id,number of referrals,url,associated publisher,tags,name,like count,retweet count,reply count,quote count
+1,demo,me,2023-06-20,"This is a demo text",domain,['A'],['A'],[],['2'],1,https://demo.com,A,Demo|Example,A,,,,
+2,demo,me,2023-06-21,"Another demo text",domain,['A'],['A'],[],[],0,https://demo.com,A,Demo|Example,A,,,,
