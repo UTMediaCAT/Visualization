@@ -10,13 +10,13 @@ You will need:
 	- pandas
 	- matplotlib
 	- d3graph
-- Input .csv file from post processor
+- *.csv* file from post processor
 
 As long as you have the **pip** command line tool, the modules should be automatically installed when you run the main script.  If there is an error installing the modules, whether it be due to user permissions or other reasons, run `pip install -r requirements.txt`
 
 # Instructions
 
-1. Modify the constant variable **INPUT** in *main.py* to match the name of the *.csv* file
+1. Place the *.csv* file generated from the post processor inside the Jupyter Notebook by following [these instructions](https://github.com/UTMediaCAT/Visualization/tree/main/notebooks)
 2. Call `python main.py`
 
 The Jupyter Notebook should open in a web browser and be ready to visualize the data provided by the given *.csv* file.
