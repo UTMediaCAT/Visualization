@@ -11,7 +11,7 @@ from subprocess import run
 from sys import executable
 
 # If requirements.txt is updated, please update this list too
-PACKAGES = ['jupyter', 'pandas', 'matplotlib', 'd3graph']
+PACKAGES = ['jupyter', 'pandas', 'matplotlib', 'd3graph', 'plotly']
 
 def install(package: str) -> None:
     ''' 
