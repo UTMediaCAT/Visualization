@@ -10,6 +10,7 @@ You will need:
 	- pandas
 	- matplotlib
 	- d3graph
+ 	- plotly
 - *.csv* file from post processor
 
 As long as you have the **pip** command line tool, the modules should be automatically installed when you run the main script.  If there is an error installing the modules, whether it be due to user permissions or other reasons, run `pip install -r requirements.txt`
