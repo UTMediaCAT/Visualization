@@ -18,7 +18,7 @@ As long as you have the **pip** command line tool, the modules should be automat
 # Instructions
 
 1. Place the *.csv* file generated from the post processor inside the Jupyter Notebook by following [these instructions](https://github.com/UTMediaCAT/Visualization/tree/main/notebooks)
-2. Call `python main.py`
+2. Call `python3 main.py`
 
 The Jupyter Notebook should open in a web browser and be ready to visualize the data provided by the given *.csv* file.
 
