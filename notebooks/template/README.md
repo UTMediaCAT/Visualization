@@ -9,4 +9,4 @@ Follow these instructions to configure the diagrams and charts for data visualiz
 2. Modify the constant variables in *helper.ipynb* to match the provided *.csv* file
 3. Modify any other constants in the other notebooks based on what you want to visualize
 
-The notebooks should also have instructions embedded into them.
+The notebooks should also have relevant instructions.
