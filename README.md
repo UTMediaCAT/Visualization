@@ -28,5 +28,5 @@ If you would like to export Jupyter Notebooks into a different format like *pdf*
 
 To export, follow these instructions:
 1. Change into the directory with the Jupyter Notebook in the *notebooks* directory
-2. Call `jupyter nbconvert <notebook> --to <format>` where *notebook* is an existing Jupyter Notebook and *format* is the format type you want to export to.  For example, `jupyter nbconvert stack_are_chart.ipynb --to pdf` will convert the stack area chart notebook to a PDF document.
+2. Call `jupyter nbconvert <notebook> --to <format>` where *notebook* is an existing Jupyter Notebook and *format* is the format type you want to export to.  For example, `jupyter nbconvert stack_area_plotly.ipynb --to pdf` will convert the stack area chart notebook to a PDF document.
 
